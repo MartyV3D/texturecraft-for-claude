@@ -1,0 +1,12 @@
+{
+  "name": "texturecraft-for-claude",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Claude Desktop extension that connects Claude to the TextureCraft app (unofficial).",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/run.js",
+    "validate": "npx -y @anthropic-ai/mcpb validate manifest.json",
+    "pack": "npx -y @anthropic-ai/mcpb pack . dist/texturecraft-for-claude.mcpb"
+  }
+}
